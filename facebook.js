@@ -120,6 +120,7 @@ function multiplyCards(index) {
 }
 
 function peopleWhoJoinActivity() {
+    activitysPeopleElement2.innerHTML = '';
     let i = 0
     let interval = setInterval(() => {
         let dude = people[Math.floor(Math.random() * 100 + 1)];
